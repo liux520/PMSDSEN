@@ -124,7 +124,7 @@ Should you have any question, please create an issue on this repository or conta
 ## :heart: Acknowledgement
 Thanks to the lucky aura of the second author!
 
-We are thankful for these excellent works: [[STDC]](https://github.com/MichaelFan01/STDC-Seg) [[PyTorch-Enconding]]([zhanghang1989/PyTorch-Encoding: A CV toolkit for my papers. (github.com)](https://github.com/zhanghang1989/PyTorch-Encoding))[[EdgeNets]([sacmehta/EdgeNets: This repository contains the source code of our work on designing efficient CNNs for computer vision (github.com)](https://github.com/sacmehta/EdgeNets))] !
+We are thankful for these excellent works: [[STDC]](https://github.com/MichaelFan01/STDC-Seg) [[PyTorch-Enconding]](https://github.com/zhanghang1989/PyTorch-Encoding)[[EdgeNets]](https://github.com/sacmehta/EdgeNets)
 
 <hr />
 
