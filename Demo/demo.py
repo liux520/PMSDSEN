@@ -33,8 +33,11 @@ def check_dir(path):
         os.makedirs(path)
 
 
-def uint2tensor(img):
+def uint2tensor(img, mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225)):
     img = torch.from_numpy(img.astype(np.float32).transpose(2, 0, 1) / 255.).float().unsqueeze(0)
+    mean = torch.as_tensor(mean, dtype=img.dtype, device=img.device)[:, None, None]
+    std = torch.as_tensor(std, dtype=img.dtype, device=img.device)[:, None, None]
+    img = img.sub_(mean).div_(std).clone()
     return img
 
 
