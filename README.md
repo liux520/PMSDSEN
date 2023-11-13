@@ -10,7 +10,7 @@ Xiao Liu<sup>1 </sup>, Xiuya Shi<sup>1 </sup>, Lufei Chen<sup>1 </sup>, [Linbo Q
 <hr />
 
 ## :writing_hand: Changelog and ToDos
-- [x] Test Set Results submitted to the [Cityscapes website]().  [Val: 75.02 | Test: 73.99]
+- [x] Test Set Results submitted to the [Cityscapes website](https://www.cityscapes-dataset.com/method-details/?submissionID=18459).  [Val: 75.02 | Test: 73.99]
 - [x] (2023/11/6) Release training and evaluation code along with pre-trained models.
 <hr />
 
